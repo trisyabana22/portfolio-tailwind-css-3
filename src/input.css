@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins";
+  @apply mb-20;
+}
+
+header {
+  font-family: "Brush Script Std Medium";
+}
+
+.btn-primary {
+  @apply top-20 inline-block rounded-md bg-sky-500 px-16 py-4 text-sm text-white after:absolute after:left-2 after:-top-3 after:-z-10 after:inline-block after:h-full after:w-full after:rounded-md after:border-2 after:border-sky-500 after:content-[''] md:text-lg;
+}
