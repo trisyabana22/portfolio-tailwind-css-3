@@ -4,7 +4,7 @@
 
 body {
   font-family: "Poppins";
-  @apply mb-20;
+  /* @apply mb-20; */
 }
 
 header {
@@ -17,4 +17,8 @@ header {
 
 .img-order:nth-child(odd) {
   order: 2;
+}
+
+.active {
+  @apply bg-sky-500 p-2 text-white !important;
 }
